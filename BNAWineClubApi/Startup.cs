@@ -40,7 +40,7 @@ namespace BNAWineClubApi
                                   builder =>
                                   { 
                                       builder.WithHeaders(HeaderNames.ContentType);
-                                      builder.WithOrigins("http://localhost:3000", "http://winebrosandhoes.com");
+                                      builder.WithOrigins("http://localhost:3000", "http://bnawineclub.com");
                                       builder.WithMethods("POST", "PUT", "GET", "PATCH", "DELETE");
                                   });
             });
